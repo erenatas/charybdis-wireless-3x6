@@ -7,8 +7,22 @@ Quick note: This setup does **not support** RGB!
 
 The necessary files for PCBs and 3D files are scattered across Github, I will be referring to the each file specifically in this guide.
 
+# Thanks
+I would like to thank and give my gratitude to following people that helped to make this project into a reality. I believe you have ignited a DIY flame within me!
+- [EIGA](https://www.youtube.com/watch?v=Mks7QDxFreY)
+- [BastardKB](http://bastardkb.com/)
+- [VOID](https://github.com/victorlucachi)
+- [olidacombe](https://github.com/olidacombe)
+- My dear friend and colleague [pbacterio](https://github.com/pbacterio)
+- Sigvah who became my build buddy
+- My wife for her support!
+
+And finally thank you for all the supporters in BastardKB Discord channel. You have an amazing community!
+
 ## Disclaimer 
-None of this is my work, it is a compilation of many contributors. My only participation is building a keyboard for myself, and writing this guide for those in need.
+None of this is my work, it is a compilation of many contributors. My only participation is building a keyboard for myself, and writing this guide for those in need. Original design belongs to [BastardKB](https://bastardkb.com)
+
+I will not be hold responsible if something goes wrong with your build.
 
 ## Step 1: Required Parts
 ### PCBs
@@ -131,7 +145,7 @@ Most of the steps are similar to building a Charybdis Nano. I will try to explai
 1. Install screw inserts: [BastardKB Docs](http://docs.bastardkb.com/bg_cnano/04screw_inserts.html)
 1. Solder diodes: [BastardKB Docs](http://docs.bastardkb.com/bg_cnano/05diodes.html)
 1. Solder PMW3610 to sensor board
-    - There is a single orientation to solder it, I don't think you will have any issues in this step. I would recommend to take out the sensor cap while doing any soldering to prevent touching it via solder iron. There is also kapton tape on the sensor, before starting to use it I would recommend to take them out.
+    - There is a single orientation to solder it, I don't think you will have any issues in this step. I would recommend to take out the sensor cap while doing any soldering to prevent touching it via solder iron. There is also kapon tape on the sensor, before starting to use it I would recommend to take them out.
 1. Solder power switch to nice!nano holder
 1. Solder button
 1. Solder JST female plug
@@ -151,16 +165,9 @@ Most of the steps are similar to building a Charybdis Nano. I will try to explai
     - During sensor assembly, I initially did not understand BTU prints were supposed to be installed angled, and needs to go all in. This is important otherwise ball will stay too high and sensor will not be able to read it
 
 ## Step 3: Software
-As of writing, I have zero knowledge of ZMK. I have forked [EIGA's config repo](https://github.com/erenatas/zmk-config), created a Github Actions which built the images required for the keyboard. Connecting nice!nano for the first time is its reset mode, all you need to do is to drag and drop built image, which will flash itself. No need to change names or anything. Right hand is the main controller which you can connect to it via bluetooth and left hand automatically is connected to right hand.
+As of writing, I have zero knowledge of ZMK. ~~I have forked [EIGA's config repo](https://github.com/erenatas/zmk-config)~~, created a Github Actions which built the images required for the keyboard. Connecting nice!nano for the first time is its reset mode, all you need to do is to drag and drop built image, which will flash itself. No need to change names or anything. Right hand is the main controller which you can connect to it via bluetooth and left hand automatically is connected to right hand.
 
-# Thanks
-I would like to thank and give my gratitude to following people that helped to make this project into a reality. I believe you have ignited a DIY flame within me!
-- [EIGA](https://www.youtube.com/watch?v=Mks7QDxFreY)
-- [BastardKB](http://bastardkb.com/)
-- [VOID](https://github.com/victorlucachi)
-- [olidacombe](https://github.com/olidacombe)
-- My dear friend and colleague [pbacterio](https://github.com/pbacterio)
-- Sigvah who became my build buddy
-- My wife for her support!
+**07/04/2024**: You can find my zmk config here: [https://github.com/erenatas/zmk-config-charybdis-mini-wireless](https://github.com/erenatas/zmk-config-charybdis-mini-wireless), Added scroll support via forking [@grassfedreeve](https://github.com/grassfedreeve)'s config and adapted it to 3x6 mini. 
 
-And finally thank you for all the supporters in BastardKB Discord channel. You have an amazing community!
+
+
