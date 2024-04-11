@@ -1,28 +1,30 @@
 # Charybdis Wireless (3x6 aka Mini) Guide
 ![wireless charybdis](./images/DSC08373.jpg "My build")
 
-This guide is written for mainly to take a note on what I have done to build this keyboard, and there is almost no written guide when it comes to building a wireless Charybdis. I am going to build a 3x6 Charybdis Mini, therefore my guide will be specifically for that. If you are planning to build Charybdis Nano (or add a rotary knob), fork and tweak it as you like (with reference please).
+#### Table of contents
+* [Before we begin](#before-we-begin)
+* [Disclaimer](#disclaimer)
+* [Build Guide](#build-guide)
+    * [1. Required Parts](#step-1-required-parts)
+    * [2. Assembly](#step-2-assembly)
+    * [3. Software](#step-3-software)
+* [Thanks](#thanks)
 
-Quick note: This setup does **not support** RGB!
+# Before we begin
 
-The necessary files for PCBs and 3D files are scattered across Github, I will be referring to the each file specifically in this guide.
+The Charybdis was created and designed by [Bastard Keyboards](https://bastardkb.com/) so I take no credit in the creation or design. To learn more about the Charybdis it self, read about it on the [Charybdis Github](https://github.com/Bastardkb/Charybdis). 
 
-# Thanks
-I would like to thank and give my gratitude to following people that helped to make this project into a reality. I believe you have ignited a DIY flame within me!
-- [EIGA](https://www.youtube.com/watch?v=Mks7QDxFreY)
-- [BastardKB](http://bastardkb.com/)
-- [VOID](https://github.com/victorlucachi)
-- [olidacombe](https://github.com/olidacombe)
-- My dear friend and colleague [pbacterio](https://github.com/pbacterio)
-- Sigvah who became my build buddy
-- My wife for her support!
+The purpose of this guide is mainly to take a note on what I have done to building a Wireless (Bluetooth) Charybdis, since there is almost no written guide when it comes to building a Wireless Charybdis. I am going to build a 3x6 Charybdis Mini, therefore my guide will be specifically for that. If you are planning to build Charybdis Nano (or add a rotary knob), etc.. Pleas fork and tweak it as you like (with reference please).
 
-And finally thank you for all the supporters in BastardKB Discord channel. You have an amazing community!
+**Important notes:**
+- As of writing this setup does not support RGB LEDs.
 
-## Disclaimer 
-None of this is my work, it is a compilation of many contributors. My only participation is building a keyboard for myself, and writing this guide for those in need. Original design belongs to [BastardKB](https://bastardkb.com)
+- The necessary files for PCBs and 3D files are scattered across Github, I will be referring to the each file specifically in this guide.
 
-I will not be hold responsible if something goes wrong with your build.
+# Disclaimer 
+**Follow at your own rick**, I am not liable for anything that does not work. If you are unsure of something I would suggest you stop by the Bastard Keyboards discord if you have questions. 
+
+# Build Guide
 
 ## Step 1: Required Parts
 ### PCBs
@@ -169,5 +171,14 @@ As of writing, I have zero knowledge of ZMK. ~~I have forked [EIGA's config repo
 
 **07/04/2024**: You can find my zmk config here: [https://github.com/erenatas/zmk-config-charybdis-mini-wireless](https://github.com/erenatas/zmk-config-charybdis-mini-wireless), Added scroll support via forking [@grassfedreeve](https://github.com/grassfedreeve)'s config and adapted it to 3x6 mini. 
 
+# Thanks
+I would like to thank and give my gratitude to following people that helped to make this project into a reality. I believe you have ignited a DIY flame within me!
+- [EIGA](https://www.youtube.com/watch?v=Mks7QDxFreY) with his Youtube.
+- [BastardKB](http://bastardkb.com/)
+- [VOID](https://github.com/victorlucachi)
+- [olidacombe](https://github.com/olidacombe)
+- My dear friend and colleague [pbacterio](https://github.com/pbacterio)
+- Sigvah who became my build buddy
+- My wife for her support!
 
-
+And finally thank you for all the supporters in BastardKB Discord channel. You have an amazing community!
