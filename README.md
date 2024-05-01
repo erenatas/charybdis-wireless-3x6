@@ -12,9 +12,9 @@
 
 # Before we begin
 
-The Charybdis was created and designed by [Bastard Keyboards](https://bastardkb.com/) so I take no credit in the creation or design. To learn more about the Charybdis it self, read about it on the [Charybdis Github](https://github.com/Bastardkb/Charybdis). 
+The Charybdis was created and designed by [Bastard Keyboards](https://bastardkb.com/) so I take no credit in the creation or design. To learn more about the Charybdis itself, read about it on [Charybdis Github](https://github.com/Bastardkb/Charybdis) repo. 
 
-The purpose of this guide is mainly to take a note on what I have done to building a Wireless (Bluetooth) Charybdis, since there is almost no written guide when it comes to building a Wireless Charybdis. I am going to build a 3x6 Charybdis Mini, therefore my guide will be specifically for that. If you are planning to build Charybdis Nano (or add a rotary knob), etc.. Pleas fork and tweak it as you like (with reference please).
+The purpose of this guide is mainly to take a note on what I have done to building a Wireless (Bluetooth) Charybdis, since there is almost no written guide when it comes to building a Wireless Charybdis. I am going to build a 3x6 Charybdis Mini, therefore my guide will be specifically for that. If you are planning to build Charybdis Nano (or add a rotary knob), etc.. Please fork and tweak it as you like (with reference please).
 
 **Important notes:**
 - As of writing this setup does not support RGB LEDs.
@@ -22,7 +22,7 @@ The purpose of this guide is mainly to take a note on what I have done to buildi
 - The necessary files for PCBs and 3D files are scattered across Github, I will be referring to the each file specifically in this guide.
 
 # Disclaimer 
-**Follow at your own rick**, I am not liable for anything that does not work. If you are unsure of something I would suggest you stop by the Bastard Keyboards discord if you have questions. 
+**Follow at your own risk**, I am not liable for anything that does not work. If you are unsure of something I would suggest you stop by the Bastard Keyboards discord if you have questions. 
 
 # Build Guide
 
