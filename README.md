@@ -1,5 +1,7 @@
-# Table of contents
 ![wireless charybdis](./images/DSC08373.jpg "My build")
+
+# Table of contents
+
 - [Table of contents](#table-of-contents)
 - [Before we begin](#before-we-begin)
 - [Disclaimer](#disclaimer)
@@ -15,7 +17,6 @@
 - [Assembly](#assembly)
 - [Software](#software)
 - [Thanks](#thanks)
-
 # Before we begin
 
 The Charybdis was created and designed by [Bastard Keyboards](https://bastardkb.com/) so I take no credit in the creation or design. To learn more about the Charybdis itself, read about it on [Charybdis Github](https://github.com/Bastardkb/Charybdis) repo. 
