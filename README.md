@@ -174,7 +174,8 @@ Most of the steps are similar to building a Charybdis Nano. I will try to explai
     - During sensor assembly, I initially did not understand BTU prints were supposed to be installed angled and need to go all in. This is important otherwise the ball will stay too high and the sensor will not be able to read it
 
 # Software
-As of writing, I have zero knowledge of ZMK. ~~I have forked [EIGA's config repo](https://github.com/erenatas/zmk-config)~~, created a Github Actions which built the images required for the keyboard. Connecting nice!nano for the first time is its reset mode, all you need to do is to drag and drop built image, which will flash itself. No need to change names or anything. Right hand is the main controller which you can connect to it via bluetooth and left hand automatically is connected to right hand.
+
+Connecting the nice!nano for the first time is its reset mode, all you need to do is to drag and drop the built image - which will flash the n!n. No need to change names or anything. Right hand is the main controller which you can connect to via bluetooth, and the left hand connects automatically to the right.
 
 - my ZMK config: [https://github.com/erenatas/zmk-config-charybdis-mini-wireless](https://github.com/erenatas/zmk-config-charybdis-mini-wireless)
 - EIGA's config: [[EIGA's config repo](https://github.com/erenatas/zmk-config)](https://github.com/erenatas/zmk-config)
