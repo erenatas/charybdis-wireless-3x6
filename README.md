@@ -1,14 +1,20 @@
-# Charybdis Wireless (3x6 aka Mini) Guide
+# Table of contents
 ![wireless charybdis](./images/DSC08373.jpg "My build")
-
-#### Table of contents
-* [Before we begin](#before-we-begin)
-* [Disclaimer](#disclaimer)
-* [Build Guide](#build-guide)
-    * [1. Required Parts](#step-1-required-parts)
-    * [2. Assembly](#step-2-assembly)
-    * [3. Software](#step-3-software)
-* [Thanks](#thanks)
+- [Table of contents](#table-of-contents)
+- [Before we begin](#before-we-begin)
+- [Disclaimer](#disclaimer)
+- [Required Parts](#required-parts)
+  - [Flexible PCBs](#flexible-pcbs)
+  - [PMW3610 Breakout](#pmw3610-breakout)
+  - [Nice!Nano Holder](#nicenano-holder)
+  - [3D Prints](#3d-prints)
+    - [Observations after build](#observations-after-build)
+  - [Electronic components](#electronic-components)
+    - [Notes](#notes)
+  - [Helper Tools](#helper-tools)
+- [Assembly](#assembly)
+- [Software](#software)
+- [Thanks](#thanks)
 
 # Before we begin
 
