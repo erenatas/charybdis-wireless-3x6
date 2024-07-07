@@ -24,9 +24,8 @@ The Charybdis was created and designed by [Bastard Keyboards](https://bastardkb.
 The purpose of this guide is mainly to take a note on what I have done to building a Wireless (Bluetooth) Charybdis, since there is almost no written guide when it comes to building a Wireless Charybdis. I am going to build a 3x6 Charybdis Mini, therefore my guide will be specifically for that. If you are planning to build Charybdis Nano (or add a rotary knob), etc.. Please fork and tweak it as you like (with reference please).
 
 **Important notes:**
-- As of writing this setup does not support RGB LEDs.
-
-- The necessary files for PCBs and 3D files are scattered across Github, I will be referring to each file specifically in this guide.
+- As of writing this setup does not support RGB LEDs
+- The necessary files for PCBs and 3D files are scattered across Github, I will be referring to each file specifically in this guide
 
 # Disclaimer 
 **Follow at your own risk**, I am not liable for anything that does not work. If you are unsure of something I would suggest you stop by the Bastard Keyboards discord if you have questions. Please note, as it's not an official supported build you will also get limited help there.
