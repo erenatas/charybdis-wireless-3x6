@@ -169,7 +169,8 @@ Most of the steps are similar to building a Charybdis Nano. I will try to explai
 ## Step 3: Software
 As of writing, I have zero knowledge of ZMK. ~~I have forked [EIGA's config repo](https://github.com/erenatas/zmk-config)~~, created a Github Actions which built the images required for the keyboard. Connecting nice!nano for the first time is its reset mode, all you need to do is to drag and drop built image, which will flash itself. No need to change names or anything. Right hand is the main controller which you can connect to it via bluetooth and left hand automatically is connected to right hand.
 
-**07/04/2024**: You can find my zmk config here: [https://github.com/erenatas/zmk-config-charybdis-mini-wireless](https://github.com/erenatas/zmk-config-charybdis-mini-wireless), Added scroll support via forking [@grassfedreeve](https://github.com/grassfedreeve)'s config and adapted it to 3x6 mini. 
+**07/04/2024**: You can find my ZMK config here: [https://github.com/erenatas/zmk-config-charybdis-mini-wireless](https://github.com/erenatas/zmk-config-charybdis-mini-wireless), Added scroll support via forking [@grassfedreeve](https://github.com/grassfedreeve)'s config and adapted it to 3x6 mini. 
+**06/09/2025**: I have updated my ZMK config following official pointer support and enabled ZMK studio. Over the period I've used the keyboard, I have come to realize that PMW3610 driver has a cold start issue. Sometimes it may take ~10 mins for trackball to work if right hand side was turned off over the night. Albeit it's a known issue, root cause has not been found yet. Please report if you have any other issues.
 
 # Thanks
 I would like to thank and give my gratitude to following people that helped to make this project into a reality. I believe you have ignited a DIY flame within me!
