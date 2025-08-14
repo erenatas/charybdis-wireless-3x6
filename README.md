@@ -81,6 +81,7 @@ A good friend and a colleague of mine [pbacterio](https://github.com/pbacterio) 
 - [Tent Left STL (Optional)](https://github.com/Bastardkb/Charybdis/blob/4924527/files/3x6%20mini/tent_v2_v57.3mf)
 - [Tent Right STL (Optional)](./3d-prints/tent_v2_v57_mirrorred.stl)
 - [Sensor Cover](https://github.com/Bastardkb/Charybdis/blob/9130a58/files/sensor_cover_v51.stl)
+- [PMW3610 Lens Adapter](https://github.com/victorlucachi/charybdis-pmw3610-breakout/blob/751c85c31b30fb05f576c57a617d748eceb6b323/lens_adapter/pmw3610_charybdis_adapter.stl)
 
 #### Tips after build
 - I personally find tents too high could not find a good position to make use of them.
